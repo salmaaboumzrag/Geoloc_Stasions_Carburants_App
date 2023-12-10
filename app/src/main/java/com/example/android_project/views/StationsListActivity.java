@@ -1,4 +1,4 @@
-package com.example.android_project;
+package com.example.android_project.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,9 +12,11 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.android_project.modle.ApiResponse;
+import com.example.android_project.R;
+import com.example.android_project.utiles.ApiResponse;
 import com.example.android_project.modle.RetrofitClientInstance;
 import com.example.android_project.modle.StationCarburant;
+import com.example.android_project.utiles.OpenDataSoftApi;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.example.android_project;
+package com.example.android_project.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.example.android_project.R;
 import com.example.android_project.modle.StationCarburant;
 
 import org.json.JSONException;

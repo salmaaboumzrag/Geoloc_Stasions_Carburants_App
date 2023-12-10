@@ -1,6 +1,6 @@
 package com.example.android_project.modle;
 
-import com.example.android_project.OpenDataSoftApi;
+import com.example.android_project.utiles.OpenDataSoftApi;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

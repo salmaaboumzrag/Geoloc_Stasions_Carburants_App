@@ -1,5 +1,4 @@
-package com.example.android_project;
-import com.example.android_project.modle.ApiResponse;
+package com.example.android_project.utiles;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

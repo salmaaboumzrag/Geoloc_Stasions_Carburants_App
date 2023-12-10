@@ -1,9 +1,10 @@
-package com.example.android_project;
+package com.example.android_project.views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.android_project.R;
 import com.example.android_project.modle.StationCarburant;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -54,8 +55,9 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             // Optionally move the camera to a suitable location
             if (!allStations.isEmpty() && allStations.get(0).getGeoPoint() != null) {
                 LatLng firstStationLocation = new LatLng(allStations.get(0).getGeoPoint().getLat(), allStations.get(0).getGeoPoint().getLon());
-                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(firstStationLocation, 10));
+                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(firstStationLocation, 8));
             }
         }
     }
 }
+//camzoom

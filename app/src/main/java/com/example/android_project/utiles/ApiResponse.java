@@ -1,5 +1,6 @@
-package com.example.android_project.modle;
+package com.example.android_project.utiles;
 
+import com.example.android_project.modle.StationCarburant;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

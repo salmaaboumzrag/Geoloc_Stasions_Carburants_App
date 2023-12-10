@@ -1,4 +1,4 @@
-package com.example.android_project;
+package com.example.android_project.views;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 
+import com.example.android_project.R;
 import com.example.android_project.modle.StationCarburant;
 
 import java.util.List;
